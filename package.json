@@ -1,0 +1,34 @@
+{
+  "name": "test-cypress-ts",
+  "version": "0.0.1",
+  "description": "cypress test framework poc with typescript",
+  "license": "UNLICENSED",
+  "scripts": {
+    "preinstall": "sh ./scripts/preinstall.sh",
+    "prettier-check": "prettier --check .",
+    "prettier-write": "prettier --write .",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix && yarn lint",
+    "lint-pretty": "yarn lint && yarn prettier-check",
+    "lint-fix-pretty": "yarn lint-fix && yarn prettier-write",
+    "test": "cypress run",
+    "test-watch": "cypress open"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "cypress": "^8.3.0",
+    "cypress-mochawesome-reporter": "^2.2.1",
+    "cypress-multi-reporters": "^1.5.0",
+    "dayjs": "^1.10.7",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "har-validator": "^5.1.5",
+    "junit-report-merger": "^3.0.1",
+    "mocha-junit-reporter": "^2.0.0",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.3"
+  }
+}
