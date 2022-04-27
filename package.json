@@ -1,9 +1,10 @@
 {
   "name": "test-cypress-ts",
   "version": "0.0.1",
-  "description": "cypress test framework poc with typescript",
+  "description": "testing with cypress in typescript",
   "license": "UNLICENSED",
   "scripts": {
+    "ci": "rm -fr node_modules && yarn install --frozen-lockfile",
     "preinstall": "sh ./scripts/preinstall.sh",
     "prettier-check": "prettier --check .",
     "prettier-write": "prettier --write .",
