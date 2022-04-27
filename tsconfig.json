@@ -11,8 +11,8 @@
     "moduleResolution": "node",
     "types": ["node", "cypress"],
     "paths": {
-      "@services/*": ["./cypress/services/*"],
-      "@pages/*": ["./cypress/pages/*"]
+      "@service/*": ["./cypress/services/*"],
+      "@page/*": ["./cypress/pages/*"]
     }
   },
   "exclude": ["node_modules", "./.github", "./.vscode"]

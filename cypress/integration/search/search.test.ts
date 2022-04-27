@@ -1,5 +1,5 @@
-import { HomePage } from '@pages/home.page';
-import { StorePage } from '@pages/store';
+import { HomePage } from '@page/home.page';
+import { StorePage } from '@page/store';
 
 describe('Flybuys store search', function () {
   let home: HomePage;

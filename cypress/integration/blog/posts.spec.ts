@@ -1,4 +1,4 @@
-import { BlogPosts } from '@services/blog-posts';
+import { BlogPosts } from '@service/blog-posts';
 
 describe('Basic blog', () => {
   const blogPosts = new BlogPosts();
@@ -115,7 +115,7 @@ describe('Basic blog', () => {
         .its('body')
         .then((posts) => {
           expect(posts).to.be.an('Array');
-          expect(posts).to.not.be.empty;
+          expect(posts).to.be.empty;
         });
     });
   });
