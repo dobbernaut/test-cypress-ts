@@ -17,8 +17,5 @@ node_modules/
 !.vscode/settings.json
 
 # Test temp and build files
-artifacts/
+cypress/artifacts/
 dist/
-cypress/videos
-cypress/screenshots
-cypress/reports
